@@ -1,0 +1,51 @@
+canonical_identifier: bkk:krp/KR6j0601/v1
+canonical_location: https://kanripo.org/bkk/KR6j0601/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說持明藏八大總持王經
+  identifiers:
+    alt_id:
+    - T21n1370
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T21/T21n1370.xml
+    old_id: T21n1370
+  edition:
+    short: bkk
+editions:
+- short: 明
+  label: 明
+  source_xml_id: wit1
+- short: 宋
+  label: 宋
+  source_xml_id: wit2
+- short: 元
+  label: 元
+  source_xml_id: wit3
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0601_000.yaml, hash: 'sha256:a5af5577d5e0c80c2121eefc635488375ee59ebc3dc52f338e34e7c3bf0c7627'}
+  - {seq: 1, filename: KR6j0601_001.yaml, hash: 'sha256:40e4048dde1d8a243dd880825d70870cbac4e7b7a32d4165217ca2161506faf8'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6j0601_001.markers.yaml, hash: 'sha256:391f456dbd54c4cf19c60eccd092a7dc3eda0a79164681b723c8fa7c41e4f477'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0601_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 2325
+  label: 佛說持明藏八大總持王經
+  type: juan
+  level: 1
+hash: sha256:4d7cdee97a1215f5d49f62c3b7a7e4e4ce9494bf5ae8e27102205d4356ae26e7
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

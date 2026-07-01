@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6j0601/T/v1
+canonical_location: https://kanripo.org/bkk/KR6j0601/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說持明藏八大總持王經
+  identifiers:
+    krp: KR6j0601
+    cbeta: T21n1370
+    cbeta_old_id: T21n1370
+    authorityid: CA0000479
+    json_key: T1370
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T21/T21n1370.xml
+    old_id: T21n1370
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0601_000-T.yaml, hash: 'sha256:a5af5577d5e0c80c2121eefc635488375ee59ebc3dc52f338e34e7c3bf0c7627'}
+  - {seq: 1, filename: KR6j0601_001-T.yaml, hash: 'sha256:06755a340f4a4185c9ee097e58b5d058667bc8ca8964a7cd145b1b98a472abd0'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6j0601_000-T.markers.yaml, hash: 'sha256:64b7a9a5a093f811e8ccaaf54ae44a1a72a34d1676dbee06ca1029d7bebd2f30'}
+  - {seq: 1, role: markers, filename: assets/KR6j0601_001-T.markers.yaml, hash: 'sha256:a5dfe9b775a963d32b1f1a8d438f751a9efdaa2d313fd04cbe6a9568ec70cfa8'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0601_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 2325
+  label: 佛說持明藏八大總持王經
+  type: juan
+  level: 1
+hash: sha256:abe83c4f314f51a98675d14798449b27b06bd8d9b8439c792565af4893416312

@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6j0601/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說持明藏八大總持王經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T21/T21n1370.xml
+    old_id: T21n1370
+hash: sha256:a5af5577d5e0c80c2121eefc635488375ee59ebc3dc52f338e34e7c3bf0c7627
