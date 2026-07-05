@@ -31,9 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0601_000.yaml, hash: 'sha256:a5af5577d5e0c80c2121eefc635488375ee59ebc3dc52f338e34e7c3bf0c7627'}
-  - {seq: 1, filename: KR6j0601_001.yaml, hash: 'sha256:40e4048dde1d8a243dd880825d70870cbac4e7b7a32d4165217ca2161506faf8'}
+  - {seq: 1, filename: KR6j0601_001.yaml, hash: 'sha256:06755a340f4a4185c9ee097e58b5d058667bc8ca8964a7cd145b1b98a472abd0'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6j0601_001.markers.yaml, hash: 'sha256:391f456dbd54c4cf19c60eccd092a7dc3eda0a79164681b723c8fa7c41e4f477'}
+  - {seq: 0, role: markers, filename: assets/KR6j0601_000.markers.yaml, hash: 'sha256:24bcc019515e4fd523c8be0e7840aec8d15511ead4353714956bc40c056173d9'}
+  - {seq: 1, role: markers, filename: assets/KR6j0601_001.markers.yaml, hash: 'sha256:08d72bfbdb2021f1e4dc70b95b89a3fd5d1584606ba635f00320f9cced39fbc5'}
 table_of_contents:
 - ref:
     seq: 1
@@ -45,7 +46,4 @@ table_of_contents:
   label: 佛說持明藏八大總持王經
   type: juan
   level: 1
-hash: sha256:4d7cdee97a1215f5d49f62c3b7a7e4e4ce9494bf5ae8e27102205d4356ae26e7
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:3f133aae7fbd75a05515a77e6f8998ab09e47452bce11ef66ac45aa4fd4ff189
